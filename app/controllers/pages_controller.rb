@@ -2,12 +2,12 @@ class PagesController < ApplicationController
   def home
   end
 
-  def concert
+  def concerts
   end
 
-  def tournage
+  def tournages
   end
 
-  def artistique
+  def artistiques
   end
 end
