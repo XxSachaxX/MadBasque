@@ -1,0 +1,2 @@
+class TournagesController < ApplicationController
+end
