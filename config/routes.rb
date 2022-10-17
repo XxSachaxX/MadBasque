@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get "concerts", to: "concerts#index"
   get "tournages", to: "tournages#index"
   get "artistiques", to: "artistiques#index"
-  get "blog", to: "blog#index"
+  get "blog", to: "posts#index"
 end
