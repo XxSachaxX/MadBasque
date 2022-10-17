@@ -157,7 +157,7 @@ tournage1.photos.attach(io: file41, filename: "Le voyage de Stone 15", content_t
 tournage1.save!
 
 puts "creating tournage 2 - Yetili"
-tournage2 = Tournage.new(title: "Le voyage de Stone", user_id: user1.id)
+tournage2 = Tournage.new(title: "Yetili", user_id: user1.id)
 puts "Adding image 1"
 file42 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507969/development/DSCF2322_umpag6.jpg")
 puts "Adding image 2"
