@@ -1,0 +1,25 @@
+<div class="container text-center">
+
+  <h2>Aura Noir</h2>
+  <div class="photo_grid mb-5">
+    <% @concerts.find_by(title: "Aura Noir").photos.each do |photo| %>
+      <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+    <% end %>
+  </div>
+
+  <h2>Hail Spirit Noir</h2>
+  <div class="photo_grid mb-5">
+    <% @concerts.find_by(title: "Hail Spirit Noir").photos.each do |photo| %>
+      <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+    <% end %>
+  </div>
+
+  <h2>Les feux de Beltane</h2>
+  <div class="photo_grid mb-5">
+    <% @concerts.find_by(title: "Les feux de Beltane").photos.each do |photo| %>
+      <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+    <% end %>
+  </div>
+
+
+</div>
