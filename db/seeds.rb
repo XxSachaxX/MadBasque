@@ -111,33 +111,33 @@ tournage1 = Tournage.new(title: "Le voyage de Stone", user_id: user1.id)
 puts "Adding image 1"
 file27 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
 puts "Adding image 2"
-file28 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file28 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507815/development/_MG_4943_c1wvke.jpg")
 puts "Adding image 3"
-file29 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file29 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507815/development/IMG_4754_q4pryn.jpg")
 puts "Adding image 4"
-file30 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file30 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507815/development/IMG_4742_tmcbtq.jpg")
 puts "Adding image 5"
-file31 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file31 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507816/development/IMG_4801_njtfeu.jpg")
 puts "Adding image 6"
-file32 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file32 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507816/development/IMG_4853_ge6zbr.jpg")
 puts "Adding image 7"
-file33 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file33 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507817/development/IMG_4971_t80rdq.jpg")
 puts "Adding image 8"
-file34 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file34 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507818/development/IMG_5074_hbjjwt.jpg")
 puts "Adding image 9"
-file35 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file35 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507819/development/IMG_5193_qv7fj5.jpg")
 puts "Adding image 10"
-file36 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file36 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507821/development/IMG_5434_r0jmmt.jpg")
 puts "Adding image 11"
-file37 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file37 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507867/development/_MG_5124_lqyc7n.jpg")
 puts "Adding image 12"
-file38 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file38 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507867/development/IMG_4797_fm9zdy.jpg")
 puts "Adding image 13"
-file39 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file39 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507868/development/IMG_5321_ekizpj.jpg")
 puts "Adding image 14"
-file40 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file40 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507868/development/IMG_4831_zlpmlc.jpg")
 puts "Adding image 15"
-file41 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file41 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/v1665507969/development/DSCF2322_umpag6.jpg")
 
 tournage1.photos.attach(io: file27, filename: "Le voyage de Stone 1", content_type: "image/png")
 tournage1.photos.attach(io: file28, filename: "Le voyage de Stone 2", content_type: "image/png")
