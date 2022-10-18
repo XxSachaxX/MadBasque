@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get "tournages", to: "tournages#index"
   get "artistiques", to: "artistiques#index"
   get "blog", to: "posts#index"
+  resources :posts, except: :index
 end

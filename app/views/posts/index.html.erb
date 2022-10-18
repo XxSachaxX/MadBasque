@@ -1,0 +1,10 @@
+<div class="container d-flex">
+<% @posts.each do |post| %>
+  <div class="d-flex flex-column-reverse ms-2 me-2 text-center">
+    <% post.photos.each do |photo| %>
+      <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+    <% end %>
+    <%= link_to post.title, post_path(post) %>
+  </div>
+<% end %>
+</div>
