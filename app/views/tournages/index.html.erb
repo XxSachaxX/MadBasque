@@ -1,4 +1,4 @@
-<div class="container text-center">
+<div class="container text-center" data-controller="disable-button">
 
   <div class="banner_tournages mb-5">
     <h1>Tournages</h1>
@@ -10,18 +10,32 @@
     <div class="grid-item-4"><%= link_to "Mon blog", blog_path, class: "text-decoration-none text-white"%></div>
   </div>
 
-  <h2>Le voyage de Stone</h2>
-  <div class="photo_grid mb-5">
-    <% @tournages.find_by(title: "Le voyage de Stone").photos.each do |photo| %>
-      <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
-    <% end %>
+  <div class="mb-2">
+    <a href="#" class="text-decoration-none" data-action="click->disable-button#toggleStone">
+      <div class="banner-voyage-de-stone">
+        <h2>Le voyage de Stone</h2>
+      </div>
+    </a>
+
+    <div class="photo_grid mb-5 d-none" data-disable-button-target="stone">
+      <% @tournages.find_by(title: "Le voyage de Stone").photos.each do |photo| %>
+        <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+      <% end %>
+    </div>
   </div>
 
-  <h2>Yetili</h2>
-  <div class="photo_grid mb-5">
-    <% @tournages.find_by(title: "Yetili").photos.each do |photo| %>
-      <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
-    <% end %>
+  <div class="mb-2">
+    <a href="#" class="text-decoration-none" data-action="click->disable-button#toggleYetili">
+      <div class="banner-yetili">
+        <h2>Yetili</h2>
+      </div>
+    </a>
+
+    <div class="photo_grid mb-5 d-none" data-disable-button-target="yetili">
+      <% @tournages.find_by(title: "Yetili").photos.each do |photo| %>
+        <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+      <% end %>
+    </div>
   </div>
 
 </div>

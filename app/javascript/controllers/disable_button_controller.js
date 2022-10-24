@@ -3,7 +3,7 @@ import { Controller } from "@hotwired/stimulus"
 // Connects to data-controller="disable-button"
 
 export default class extends Controller {
-  static targets = ["aura", "hail", "feux"]
+  static targets = ["aura", "hail", "feux", "stone", "yetili"]
 
   connect() {
     console.log("disabler connected")
@@ -25,5 +25,17 @@ export default class extends Controller {
     event.preventDefault()
     console.log("It works!!")
     this.feuxTarget.classList.toggle("d-none")
+  }
+
+  toggleStone() {
+    event.preventDefault()
+    console.log("It works!!")
+    this.stoneTarget.classList.toggle("d-none")
+  }
+
+  toggleYetili() {
+    event.preventDefault()
+    console.log("It works!!")
+    this.yetiliTarget.classList.toggle("d-none")
   }
 }
