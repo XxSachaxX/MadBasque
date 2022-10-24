@@ -1,8 +1,9 @@
-<div class="container text-center">
+<div class="container text-center" data-controller="disable-button" >
 
   <div class="banner_concerts mb-2">
     <h1>Concerts</h1>
   </div>
+
 
   <div class="grid-container mb-5">
     <div class="grid-item-2"><%= link_to "Tournages", tournages_path, class: "text-decoration-none text-white"%></div>
@@ -10,24 +11,46 @@
     <div class="grid-item-4"><%= link_to "Mon blog", blog_path, class: "text-decoration-none text-white"%></div>
   </div>
 
-  <h2>Aura Noir</h2>
-  <div class="photo_grid mb-5">
+<div>
+  <a href="#" class="text-decoration-none" data-action="click->disable-button#toggleAura">
+    <div class="banner-aura-noir">
+      <h2>Aura Noir</h2>
+    </div>
+  </a>
+
+  <div class="photo_grid mb-5 d-none" data-disable-button-target="aura">
     <% @concerts.find_by(title: "Aura Noir").photos.each do |photo| %>
       <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
     <% end %>
   </div>
+</div>
 
-  <h2>Hail Spirit Noir</h2>
-  <div class="photo_grid mb-5">
+<div>
+<a href="#" class="text-decoration-none" data-action="click->disable-button#toggleHail">
+  <div class="banner-hail-spirit-noir">
+    <h2>Hail Spirit Noir</h2>
+  </div>
+</a>
+
+  <div class="photo_grid mb-5 d-none" data-disable-button-target="hail">
     <% @concerts.find_by(title: "Hail Spirit Noir").photos.each do |photo| %>
       <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
     <% end %>
   </div>
+</div>
 
-  <h2>Les feux de Beltane</h2>
-  <div class="photo_grid mb-5">
+<div>
+<a href="#" class="text-decoration-none" data-action="click->disable-button#toggleFeux">
+  <div class="banner-feux-de-beltane">
+    <h2>Les feux de Beltane</h2>
+  </div>
+</a>
+
+  <div class="photo_grid mb-5 d-none" data-disable-button-target="feux">
     <% @concerts.find_by(title: "Les feux de Beltane").photos.each do |photo| %>
       <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
     <% end %>
   </div>
+</div>
+
 </div>
