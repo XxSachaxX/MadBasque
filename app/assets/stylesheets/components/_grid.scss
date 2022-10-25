@@ -1,3 +1,11 @@
+.menu-img {
+  opacity: 0.9;
+}
+
+.menu-img:hover {
+  opacity: 1;
+}
+
 .grid-container {
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
