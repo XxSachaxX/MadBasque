@@ -6,10 +6,18 @@
 </div>
 <div class="container text-center">
   <div class="grid-container mb-5">
-    <div class="grid-item-1"><%= link_to "Concerts", concerts_path, class: "text-decoration-none text-white"%></div>
-    <div class="grid-item-2"><%= link_to "Tournages", tournages_path, class: "text-decoration-none text-white"%></div>
-    <div class="grid-item-3"><%= link_to "Artistiques", artistiques_path, class: "text-decoration-none text-white"%></div>
-    <div class="grid-item-4"><%= link_to "Mon blog", blog_path, class: "text-decoration-none text-white"%></div>
+    <%= link_to concerts_path, class:"text-decoration-none menu-img" do %>
+      <div class="grid-item-1 text-white">Concerts</div>
+    <% end %>
+    <%= link_to tournages_path, class:"text-decoration-none menu-img" do %>
+      <div class="grid-item-2 text-white">Tournages</div>
+    <% end %>
+    <%= link_to artistiques_path, class:"text-decoration-none menu-img" do %>
+      <div class="grid-item-3 text-white">Artistiques</div>
+    <% end %>
+    <%= link_to blog_path, class:"text-decoration-none menu-img" do %>
+      <div class="grid-item-4 text-white">Mon blog</div>
+    <% end %>
   </div>
 
   <div class="about ms-3 mb-5">
