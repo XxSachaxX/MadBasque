@@ -1,13 +1,6 @@
 class PagesController < ApplicationController
+  skip_before_action :authenticate_user!
   def home
   end
 
-  def concerts
-  end
-
-  def tournages
-  end
-
-  def artistiques
-  end
 end
