@@ -1,6 +1,8 @@
-<%= simple_form_for(@post) do |f| %>
-  <%= f.input :title %>
-  <%= f.input :content %>
-  <%= f.input :photos %>
-  <%= f.submit %>
-<% end %>
+<div class="container text-center mb-5">
+  <%= simple_form_for(@post) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :content %>
+    <%= f.input :photos %>
+    <%= f.submit %>
+  <% end %>
+</div>
