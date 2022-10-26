@@ -25,7 +25,9 @@
 
     <div class="photo_grid mb-5 d-none" data-disable-button-target="stone">
       <% @tournages.find_by(title: "Le voyage de Stone").photos.each do |photo| %>
-        <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+        <a href="<%= photo.url %>" target="_blank">
+          <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+        </a>
       <% end %>
     </div>
   </div>
@@ -39,7 +41,9 @@
 
     <div class="photo_grid mb-5 d-none" data-disable-button-target="yetili">
       <% @tournages.find_by(title: "Yetili").photos.each do |photo| %>
+      <a href="<%= photo.url %>" target="_blank">
         <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+      </a>
       <% end %>
     </div>
   </div>
