@@ -3,3 +3,16 @@
   flex-direction: column;
   align-items: center;
 }
+
+.post-title {
+  opacity: 0.8;
+}
+
+.post-title:hover {
+  opacity: 1;
+  font-weight: bold;
+}
+
+.single-post {
+  border: solid 1px lightgray;
+}

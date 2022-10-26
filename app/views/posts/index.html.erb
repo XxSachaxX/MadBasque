@@ -17,8 +17,8 @@
   </div>
 
   <% @posts.each do |post| %>
-    <div class="text-center mb-5">
-      <h2 class="mb-5"><%=link_to post.title, post_path(post), class:"text-decoration-none text-black" %></h2>
+    <div class="text-center mb-5 single-post shadow-lg">
+      <h2 class="mb-5"><%=link_to post.title, post_path(post), class:"text-decoration-none text-black post-title" %></h2>
       <% post.photos.each do |photo| %>
         <%= cl_image_tag photo.key, height: 500, width: 700, crop: :fill %>
       <% end %>
