@@ -17,11 +17,18 @@
   </div>
 
   <% @posts.each do |post| %>
-    <div class="text-center mb-5 single-post shadow-lg">
-      <h2 class="mb-5"><%=link_to post.title, post_path(post), class:"text-decoration-none text-black post-title" %></h2>
-      <% post.photos.each do |photo| %>
-        <%= cl_image_tag photo.key, height: 500, width: 700, crop: :fill %>
-      <% end %>
-    </div>
+    <%= link_to post_path(post), class:"text-decoration-none text-black post-title" do %>
+      <div class="text-center mb-5 single-post shadow-lg">
+        <h2 class="mb-5"><%= post.title%></h2>
+        <% post.photos.each do |photo| %>
+          <%= cl_image_tag photo.key, height: 500, width: 700, crop: :fill %>
+        <% end %>
+      </div>
+    <% end %>
   <% end %>
+
+  <div class="text-center mb-2 pb-2">
+    <%= link_to "Back to blog list", blog_path, class:"text-decoration-none" %>
+  </div>
+
 </div>
