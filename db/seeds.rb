@@ -18,17 +18,17 @@ puts "Creating Concerts"
 puts "creating concert 1 - Aura Noir"
 concert1 = Concert.new(title: "Aura Noir", user_id: user1.id)
 puts "Adding image 1"
-file1 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665406975/DSCF1276_sq3cwe.jpg")
+file1 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665406975/DSCF1276_sq3cwe.jpg")
 puts "Adding image 2"
-file2 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665406972/DSCF1287_oqrnhg.jpg")
+file2 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665406972/DSCF1287_oqrnhg.jpg")
 puts "Adding image 3"
-file3 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665406967/DSCF1248_cn0uyz.jpg")
+file3 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665406967/DSCF1248_cn0uyz.jpg")
 puts "Adding image 4"
-file4 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665406967/DSCF1219_xwipxz.jpg")
+file4 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665406967/DSCF1219_xwipxz.jpg")
 puts "Adding image 5"
-file5 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665406967/DSCF1209_nusslq.jpg")
+file5 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665406967/DSCF1209_nusslq.jpg")
 puts "Adding image 6"
-file6 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665406966/DSCF1213_p910x8.jpg")
+file6 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665406966/DSCF1213_p910x8.jpg")
 concert1.photos.attach(io: file1, filename: "Aura Noir 1", content_type: "image/png")
 concert1.photos.attach(io: file2, filename: "Aura Noir 2", content_type: "image/png")
 concert1.photos.attach(io: file3, filename: "Aura Noir 3", content_type: "image/png")
@@ -40,37 +40,37 @@ concert1.save!
 puts "creating concert 2 - Hail Spirit Noir"
 concert2 = Concert.new(title: "Hail Spirit Noir", user_id: user1.id)
 puts "Adding image 1"
-file7 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507602/development/DSCF4262_yuhghp.jpg")
+file7 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507602/development/DSCF4262_yuhghp.jpg")
 puts "Adding image 2"
-file8 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507602/development/DSCF4292_fazxgn.jpg")
+file8 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507602/development/DSCF4292_fazxgn.jpg")
 puts "Adding image 3"
-file9 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507603/development/DSCF4264_qrswzq.jpg")
+file9 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507603/development/DSCF4264_qrswzq.jpg")
 puts "Adding image 4"
-file10 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507603/development/DSCF4295_px7ise.jpg")
+file10 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507603/development/DSCF4295_px7ise.jpg")
 puts "Adding image 5"
-file11 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507606/development/DSCF4304_sii1qp.jpg")
+file11 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507606/development/DSCF4304_sii1qp.jpg")
 puts "Adding image 6"
-file12 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507606/development/DSCF4315_b8kiie.jpg")
+file12 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507606/development/DSCF4315_b8kiie.jpg")
 puts "Adding image 7"
-file13 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507607/development/DSCF4322_znkmu8.jpg")
+file13 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507607/development/DSCF4322_znkmu8.jpg")
 puts "Adding image 8"
-file14 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507607/development/DSCF4319_nm24zn.jpg")
+file14 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507607/development/DSCF4319_nm24zn.jpg")
 puts "Adding image 9"
-file15 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good//v1665507611/development/DSCF4337_rvmtcy.jpg")
+file15 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco//v1665507611/development/DSCF4337_rvmtcy.jpg")
 puts "Adding image 10"
-file16 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507612/development/DSCF4347_ao9odh.jpg")
+file16 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507612/development/DSCF4347_ao9odh.jpg")
 puts "Adding image 11"
-file17 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507614/development/DSCF4350_wgzvmh.jpg")
+file17 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507614/development/DSCF4350_wgzvmh.jpg")
 puts "Adding image 12"
-file18 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507615/development/DSCF4376_rk1pev.jpg")
+file18 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507615/development/DSCF4376_rk1pev.jpg")
 puts "Adding image 13"
-file19 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507615/development/DSCF4355_edum3v.jpg")
+file19 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507615/development/DSCF4355_edum3v.jpg")
 puts "Adding image 14"
-file20 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507616/development/DSCF4365_l8jpxa.jpg")
+file20 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507616/development/DSCF4365_l8jpxa.jpg")
 puts "Adding image 15"
-file21 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507617/development/DSCF4377_a7eigw.jpg")
+file21 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507617/development/DSCF4377_a7eigw.jpg")
 puts "Adding image 16"
-file22 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507726/development/DSCF1151_qwehgc.jpg")
+file22 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507726/development/DSCF1151_qwehgc.jpg")
 concert2.photos.attach(io: file7, filename: "Hail Spirit Noir 1", content_type: "image/png")
 concert2.photos.attach(io: file8, filename: "Hail Spirit Noir 2", content_type: "image/png")
 concert2.photos.attach(io: file9, filename: "Hail Spirit Noir 3", content_type: "image/png")
@@ -92,13 +92,13 @@ concert2.save!
 puts "creating concert 3 - Les feux de Beltane"
 concert3 = Concert.new(title: "Les feux de Beltane", user_id: user1.id)
 puts "Adding image 1"
-file23 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507731/development/DSCF1200_nfss2q.jpg")
+file23 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507731/development/DSCF1200_nfss2q.jpg")
 puts "Adding image 2"
-file24 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507732/development/DSCF1185_wvs9qw.jpg")
+file24 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507732/development/DSCF1185_wvs9qw.jpg")
 puts "Adding image 3"
-file25 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507733/development/DSCF1194_q6f2hb.jpg")
+file25 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507733/development/DSCF1194_q6f2hb.jpg")
 puts "Adding image 4"
-file26 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507772/development/DSCF0852_ort8jf.jpg")
+file26 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507772/development/DSCF0852_ort8jf.jpg")
 puts "Adding image 5"
 concert3.photos.attach(io: file23, filename: "Les feux de Beltane 1", content_type: "image/png")
 concert3.photos.attach(io: file24, filename: "Les feux de Beltane 2", content_type: "image/png")
@@ -109,35 +109,35 @@ concert3.save!
 puts "creating tournage 1 - Le voyage de Stone"
 tournage1 = Tournage.new(title: "Le voyage de Stone", user_id: user1.id)
 puts "Adding image 1"
-file27 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507814/development/_MG_4918_mxzbtt.jpg")
+file27 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507814/development/_MG_4918_mxzbtt.jpg")
 puts "Adding image 2"
-file28 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507815/development/_MG_4943_c1wvke.jpg")
+file28 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507815/development/_MG_4943_c1wvke.jpg")
 puts "Adding image 3"
-file29 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507815/development/IMG_4754_q4pryn.jpg")
+file29 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507815/development/IMG_4754_q4pryn.jpg")
 puts "Adding image 4"
-file30 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507815/development/IMG_4742_tmcbtq.jpg")
+file30 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507815/development/IMG_4742_tmcbtq.jpg")
 puts "Adding image 5"
-file31 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507816/development/IMG_4801_njtfeu.jpg")
+file31 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507816/development/IMG_4801_njtfeu.jpg")
 puts "Adding image 6"
-file32 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507816/development/IMG_4853_ge6zbr.jpg")
+file32 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507816/development/IMG_4853_ge6zbr.jpg")
 puts "Adding image 7"
-file33 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507817/development/IMG_4971_t80rdq.jpg")
+file33 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507817/development/IMG_4971_t80rdq.jpg")
 puts "Adding image 8"
-file34 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507818/development/IMG_5074_hbjjwt.jpg")
+file34 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507818/development/IMG_5074_hbjjwt.jpg")
 puts "Adding image 9"
-file35 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507819/development/IMG_5193_qv7fj5.jpg")
+file35 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507819/development/IMG_5193_qv7fj5.jpg")
 puts "Adding image 10"
-file36 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507821/development/IMG_5434_r0jmmt.jpg")
+file36 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507821/development/IMG_5434_r0jmmt.jpg")
 puts "Adding image 11"
-file37 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507867/development/_MG_5124_lqyc7n.jpg")
+file37 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507867/development/_MG_5124_lqyc7n.jpg")
 puts "Adding image 12"
-file38 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507867/development/IMG_4797_fm9zdy.jpg")
+file38 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507867/development/IMG_4797_fm9zdy.jpg")
 puts "Adding image 13"
-file39 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507868/development/IMG_5321_ekizpj.jpg")
+file39 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507868/development/IMG_5321_ekizpj.jpg")
 puts "Adding image 14"
-file40 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507868/development/IMG_4831_zlpmlc.jpg")
+file40 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507868/development/IMG_4831_zlpmlc.jpg")
 puts "Adding image 15"
-file41 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507969/development/DSCF2322_umpag6.jpg")
+file41 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507969/development/DSCF2322_umpag6.jpg")
 
 tournage1.photos.attach(io: file27, filename: "Le voyage de Stone 1", content_type: "image/png")
 tournage1.photos.attach(io: file28, filename: "Le voyage de Stone 2", content_type: "image/png")
@@ -159,75 +159,75 @@ tournage1.save!
 puts "creating tournage 2 - Yetili"
 tournage2 = Tournage.new(title: "Yetili", user_id: user1.id)
 puts "Adding image 1"
-file42 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507969/development/DSCF2322_umpag6.jpg")
+file42 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507969/development/DSCF2322_umpag6.jpg")
 puts "Adding image 2"
-file43 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507969/development/DSCF2300_inq6n2.jpg")
+file43 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507969/development/DSCF2300_inq6n2.jpg")
 puts "Adding image 3"
-file44 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507970/development/DSCF2304_tjc3cs.jpg")
+file44 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507970/development/DSCF2304_tjc3cs.jpg")
 puts "Adding image 4"
-file45 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507970/development/DSCF2311_m9isjx.jpg")
+file45 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507970/development/DSCF2311_m9isjx.jpg")
 puts "Adding image 5"
-file46 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507974/development/DSCF2328_abes8h.jpg")
+file46 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507974/development/DSCF2328_abes8h.jpg")
 puts "Adding image 6"
-file47 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507975/development/DSCF2366_qv9j2c.jpg")
+file47 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507975/development/DSCF2366_qv9j2c.jpg")
 puts "Adding image 7"
-file48 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507978/development/DSCF2376_smcekn.jpg")
+file48 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507978/development/DSCF2376_smcekn.jpg")
 puts "Adding image 8"
-file49 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507978/development/DSCF2381_qjuwme.jpg")
+file49 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507978/development/DSCF2381_qjuwme.jpg")
 puts "Adding image 9"
-file50 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507978/development/DSCF2386_dcjf59.jpg")
+file50 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507978/development/DSCF2386_dcjf59.jpg")
 puts "Adding image 10"
-file51 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507979/development/DSCF2399_qr1kbk.jpg")
+file51 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507979/development/DSCF2399_qr1kbk.jpg")
 puts "Adding image 11"
-file52 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507982/development/DSCF2413_flbmjm.jpg")
+file52 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507982/development/DSCF2413_flbmjm.jpg")
 puts "Adding image 12"
-file53 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507982/development/DSCF2423_wq0csj.jpg")
+file53 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507982/development/DSCF2423_wq0csj.jpg")
 puts "Adding image 13"
-file54 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507984/development/DSCF2428_choeka.jpg")
+file54 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507984/development/DSCF2428_choeka.jpg")
 puts "Adding image 14"
-file55 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507985/development/DSCF2429_oci2b4.jpg")
+file55 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507985/development/DSCF2429_oci2b4.jpg")
 puts "Adding image 15"
-file56 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507986/development/DSCF2454_oxl9vx.jpg")
+file56 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507986/development/DSCF2454_oxl9vx.jpg")
 puts "Adding image 16"
-file57 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507986/development/DSCF2449_xftz2z.jpg")
+file57 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507986/development/DSCF2449_xftz2z.jpg")
 puts "Adding image 17"
-file58 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507989/development/DSCF2496_gcdx2d.jpg")
+file58 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507989/development/DSCF2496_gcdx2d.jpg")
 puts "Adding image 18"
-file59 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507989/development/DSCF2485_cxhi3j.jpg")
+file59 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507989/development/DSCF2485_cxhi3j.jpg")
 puts "Adding image 19"
-file60 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507989/development/DSCF2481_mmzncu.jpg")
+file60 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507989/development/DSCF2481_mmzncu.jpg")
 puts "Adding image 20"
-file61 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507990/development/DSCF2525_vcacay.jpg")
+file61 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507990/development/DSCF2525_vcacay.jpg")
 puts "Adding image 21"
-file62 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507992/development/DSCF2568_gezezo.jpg")
+file62 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507992/development/DSCF2568_gezezo.jpg")
 puts "Adding image 22"
-file63 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507994/development/DSCF2583_gf2qun.jpg")
+file63 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507994/development/DSCF2583_gf2qun.jpg")
 puts "Adding image 23"
-file64 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507994/development/DSCF2581_sgmen1.jpg")
+file64 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507994/development/DSCF2581_sgmen1.jpg")
 puts "Adding image 24"
-file65 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507994/development/DSCF2594_cj5vlm.jpg")
+file65 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507994/development/DSCF2594_cj5vlm.jpg")
 puts "Adding image 25"
-file66 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507995/development/DSCF2600_wkfwlr.jpg")
+file66 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507995/development/DSCF2600_wkfwlr.jpg")
 puts "Adding image 26"
-file67 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507997/development/DSCF2712_w5mdl1.jpg")
+file67 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507997/development/DSCF2712_w5mdl1.jpg")
 puts "Adding image 27"
-file68 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507997/development/DSCF2714_owphtc.jpg")
+file68 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507997/development/DSCF2714_owphtc.jpg")
 puts "Adding image 28"
-file69 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507998/development/DSCF2704_fisfj4.jpg")
+file69 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507998/development/DSCF2704_fisfj4.jpg")
 puts "Adding image 29"
-file70 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665507998/development/DSCF2706_elvecu.jpg")
+file70 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665507998/development/DSCF2706_elvecu.jpg")
 puts "Adding image 30"
-file71 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665508000/development/DSCF2721_bkoujn.jpg")
+file71 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665508000/development/DSCF2721_bkoujn.jpg")
 puts "Adding image 31"
-file72 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665508001/development/DSCF2753_r8hpu7.jpg")
+file72 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665508001/development/DSCF2753_r8hpu7.jpg")
 puts "Adding image 32"
-file73 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665508003/development/DSCF2775_tkus2u.jpg")
+file73 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665508003/development/DSCF2775_tkus2u.jpg")
 puts "Adding image 33"
-file74 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665508004/development/DSCF2776_reffkd.jpg")
+file74 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665508004/development/DSCF2776_reffkd.jpg")
 puts "Adding image 34"
-file75 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665508005/development/DSCF2777_hkded7.jpg")
+file75 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665508005/development/DSCF2777_hkded7.jpg")
 puts "Adding image 35"
-file76 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1665508005/development/DSCF2795_j62jfd.jpg")
+file76 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1665508005/development/DSCF2795_j62jfd.jpg")
 
 tournage2.photos.attach(io: file42, filename: "Yetili 1", content_type: "image/png")
 tournage2.photos.attach(io: file43, filename: "Yetili 2", content_type: "image/png")
@@ -272,79 +272,79 @@ puts "Creating Artistique 1 - Abstrait"
 artistique1 = Artistique.new(title: "Abstrait", user_id: user1.id)
 
 puts "Adding image 1"
-file77 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407366/DSC_0271_hmw1me.jpg")
+file77 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407366/DSC_0271_hmw1me.jpg")
 puts "Adding image 2"
-file78 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407366/DSC_0273_pg1hfw.jpg")
+file78 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407366/DSC_0273_pg1hfw.jpg")
 puts "Adding image 3"
-file79 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407366/DSC_0266_r8bwlf.jpg")
+file79 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407366/DSC_0266_r8bwlf.jpg")
 puts "Adding image 4"
-file80 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407366/DSC_0267_zrxrrs.jpg")
+file80 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407366/DSC_0267_zrxrrs.jpg")
 puts "Adding image 5"
-file81= URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407366/DSC_0223_n7wbsv.jpg")
+file81= URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407366/DSC_0223_n7wbsv.jpg")
 puts "Adding image 6"
-file82 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407366/DSC_0117_c3rni0.jpg")
+file82 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407366/DSC_0117_c3rni0.jpg")
 puts "Adding image 7"
-file83 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407369/DSC_0454_cj9mxg.jpg")
+file83 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407369/DSC_0454_cj9mxg.jpg")
 puts "Adding image 8"
-file84 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407369/DSC_0501_hzxbzd.jpg")
+file84 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407369/DSC_0501_hzxbzd.jpg")
 puts "Adding image 9"
-file85 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407370/DSC_0467_cxxhy9.jpg")
+file85 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407370/DSC_0467_cxxhy9.jpg")
 puts "Adding image 10"
-file86 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407370/DSC_0492_timor8.jpg")
+file86 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407370/DSC_0492_timor8.jpg")
 puts "Adding image 11"
-file87 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407370/DSC_0489_ar0cmb.jpg")
+file87 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407370/DSC_0489_ar0cmb.jpg")
 puts "Adding image 12"
-file88 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407370/DSC_0508_rehhhb.jpg")
+file88 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407370/DSC_0508_rehhhb.jpg")
 puts "Adding image 13"
-file89 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407372/DSC_0645_knykt9.jpg")
+file89 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407372/DSC_0645_knykt9.jpg")
 puts "Adding image 14"
-file90 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407373/DSC_0731_cqlxsq.jpg")
+file90 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407373/DSC_0731_cqlxsq.jpg")
 puts "Adding image 15"
-file91 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407373/DSC_0793_kyoxfa.jpg")
+file91 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407373/DSC_0793_kyoxfa.jpg")
 puts "Adding image 16"
-file92 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407373/DSC_0660_vjh4ym.jpg")
+file92 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407373/DSC_0660_vjh4ym.jpg")
 puts "Adding image 17"
-file93 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407374/DSC_0775_wggzy4.jpg")
+file93 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407374/DSC_0775_wggzy4.jpg")
 puts "Adding image 18"
-file94 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407374/DSC_0743_e4e6xm.jpg")
+file94 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407374/DSC_0743_e4e6xm.jpg")
 puts "Adding image 19"
-file95 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407375/DSC_1257_psxsub.jpg")
+file95 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407375/DSC_1257_psxsub.jpg")
 puts "Adding image 20"
-file96 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407376/DSC_1787_a8viyr.jpg")
+file96 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407376/DSC_1787_a8viyr.jpg")
 puts "Adding image 21"
-file97 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407377/DSC_1801_k9ft4e.jpg")
+file97 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407377/DSC_1801_k9ft4e.jpg")
 puts "Adding image 22"
-file98 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407378/DSC_1808_gmytwd.jpg")
+file98 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407378/DSC_1808_gmytwd.jpg")
 puts "Adding image 23"
-file99 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407378/DSC_2737_o4ojgx.jpg")
+file99 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407378/DSC_2737_o4ojgx.jpg")
 puts "Adding image 24"
-file100 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407378/DSCF0686_cxbo5x.jpg")
+file100 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407378/DSCF0686_cxbo5x.jpg")
 puts "Adding image 25"
-file101 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407378/DSC_2676_pspvbc.jpg")
+file101 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407378/DSC_2676_pspvbc.jpg")
 puts "Adding image 26"
-file102 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407380/DSCF0864_fl4xve.jpg")
+file102 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407380/DSCF0864_fl4xve.jpg")
 puts "Adding image 27"
-file103 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407381/DSCF0992_zngidy.jpg")
+file103 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407381/DSCF0992_zngidy.jpg")
 puts "Adding image 28"
-file104 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407381/DSCF1042_wunsid.jpg")
+file104 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407381/DSCF1042_wunsid.jpg")
 puts "Adding image 29"
-file105 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407381/DSCF0994_lci7oc.jpg")
+file105 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407381/DSCF0994_lci7oc.jpg")
 puts "Adding image 30"
-file106 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407383/DSCF2218_pjh1gt.jpg")
+file106 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407383/DSCF2218_pjh1gt.jpg")
 puts "Adding image 31"
-file107 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407385/DSCF4500_mtrl0z.jpg")
+file107 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407385/DSCF4500_mtrl0z.jpg")
 puts "Adding image 32"
-file108 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407385/DSCF2678_lc3m0h.jpg")
+file108 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407385/DSCF2678_lc3m0h.jpg")
 puts "Adding image 33"
-file109 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407385/DSCF4501_vxlph6.jpg")
+file109 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407385/DSCF4501_vxlph6.jpg")
 puts "Adding image 34"
-file110 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407386/DSCF6584_qjokap.jpg")
+file110 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407386/DSCF6584_qjokap.jpg")
 puts "Adding image 35"
-file111 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407387/DSCF5153_disd92.jpg")
+file111 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407387/DSCF5153_disd92.jpg")
 puts "Adding image 36"
-file112 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407388/DSCF9273_ekqpnv.jpg")
+file112 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407388/DSCF9273_ekqpnv.jpg")
 puts "Adding image 37"
-file113 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407517/100238990004_w2hhay.jpg")
+file113 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407517/100238990004_w2hhay.jpg")
 
 artistique1.photos.attach(io: file77, filename: "Abstrait 1", content_type: "image/png")
 artistique1.photos.attach(io: file78, filename: "Abstrait 2", content_type: "image/png")
@@ -389,47 +389,47 @@ puts "Creating Artistique 2 - Kodak TX400"
 artistique2 = Artistique.new(title: "Kodak TX400", user_id: user1.id)
 
 puts "Adding image 1"
-file114 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407518/100238990028_ewgvql.jpg")
+file114 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407518/100238990028_ewgvql.jpg")
 puts "Adding image 2"
-file115 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407518/100238990008_dr7j4k.jpg")
+file115 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407518/100238990008_dr7j4k.jpg")
 puts "Adding image 3"
-file116 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407519/5473_-_07_gnawve.jpg")
+file116 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407519/5473_-_07_gnawve.jpg")
 puts "Adding image 4"
-file117 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407520/5473_-_12_mvdfvl.jpg")
+file117 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407520/5473_-_12_mvdfvl.jpg")
 puts "Adding image 5"
-file118 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407521/5473_-_17_aqud5j.jpg")
+file118 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407521/5473_-_17_aqud5j.jpg")
 puts "Adding image 6"
-file119 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407521/5473_-_13_ysmppl.jpg")
+file119 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407521/5473_-_13_ysmppl.jpg")
 puts "Adding image 7"
-file120 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407521/5473_-_21_nltcl3.jpg")
+file120 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407521/5473_-_21_nltcl3.jpg")
 puts "Adding image 8"
-file121 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407522/5473_-_23_jln9g8.jpg")
+file121 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407522/5473_-_23_jln9g8.jpg")
 puts "Adding image 9"
-file122 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407522/5473_-_26_iq6pwt.jpg")
+file122 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407522/5473_-_26_iq6pwt.jpg")
 puts "Adding image 10"
-file123 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407523/5473_-_29_ainsue.jpg")
+file123 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407523/5473_-_29_ainsue.jpg")
 puts "Adding image 11"
-file124 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407523/5473_-_30_z7ozqq.jpg")
+file124 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407523/5473_-_30_z7ozqq.jpg")
 puts "Adding image 12"
-file125 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407523/5474_-_05_bujssh.jpg")
+file125 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407523/5474_-_05_bujssh.jpg")
 puts "Adding image 13"
-file126 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407524/5473_-_33_mai5iv.jpg")
+file126 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407524/5473_-_33_mai5iv.jpg")
 puts "Adding image 14"
-file127 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407525/5474_-_14_cyqrop.jpg")
+file127 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407525/5474_-_14_cyqrop.jpg")
 puts "Adding image 15"
-file128 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407525/5474_-_10_av6aqy.jpg")
+file128 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407525/5474_-_10_av6aqy.jpg")
 puts "Adding image 16"
-file129 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407526/5474_-_15_jej3jy.jpg")
+file129 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407526/5474_-_15_jej3jy.jpg")
 puts "Adding image 17"
-file130 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407526/5474_-_16_zehslz.jpg")
+file130 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407526/5474_-_16_zehslz.jpg")
 puts "Adding image 18"
-file131 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407526/5474_-_19_k1ijfj.jpg")
+file131 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407526/5474_-_19_k1ijfj.jpg")
 puts "Adding image 19"
-file132 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407527/5474_-_24_q3yg9n.jpg")
+file132 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407527/5474_-_24_q3yg9n.jpg")
 puts "Adding image 20"
-file133 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407528/5474_-_30_obzvzl.jpg")
+file133 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407528/5474_-_30_obzvzl.jpg")
 puts "Adding image 21"
-file134 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407528/5474_-_34_txyljk.jpg")
+file134 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407528/5474_-_34_txyljk.jpg")
 
 artistique2.photos.attach(io: file114, filename: "Kodak TX400 1", content_type: "image/png")
 artistique2.photos.attach(io: file115, filename: "Kodak TX400 2", content_type: "image/png")
@@ -459,33 +459,33 @@ puts "Creating Artistique 3 - Portraits"
 artistique3 = Artistique.new(title: "Portraits", user_id: user1.id)
 
 puts "Adding image 1"
-file135 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407618/DSC_0511_yitooo.jpg")
+file135 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407618/DSC_0511_yitooo.jpg")
 puts "Adding image 2"
-file136 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407618/DSCF0483_hcocrc.jpg")
+file136 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407618/DSCF0483_hcocrc.jpg")
 puts "Adding image 3"
-file137 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407619/DSC_0861_ozwqk7.jpg")
+file137 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407619/DSC_0861_ozwqk7.jpg")
 puts "Adding image 4"
-file138 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407619/DSC_0156_vklauo.jpg")
+file138 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407619/DSC_0156_vklauo.jpg")
 puts "Adding image 5"
-file139 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407619/DSC_0823_ysappa.jpg")
+file139 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407619/DSC_0823_ysappa.jpg")
 puts "Adding image 6"
-file140 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407619/DSCF0512_dx2ovs.jpg")
+file140 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407619/DSCF0512_dx2ovs.jpg")
 puts "Adding image 7"
-file141 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407622/DSCF0526_mjfkaz.jpg")
+file141 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407622/DSCF0526_mjfkaz.jpg")
 puts "Adding image 8"
-file142 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407623/DSCF0551_xm7wru.jpg")
+file142 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407623/DSCF0551_xm7wru.jpg")
 puts "Adding image 9"
-file143 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407623/DSCF0672_ow9ex9.jpg")
+file143 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407623/DSCF0672_ow9ex9.jpg")
 puts "Adding image 10"
-file144 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407624/DSCF0599_efzdv5.jpg")
+file144 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407624/DSCF0599_efzdv5.jpg")
 puts "Adding image 11"
-file145 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407624/DSCF0663_dvj828.jpg")
+file145 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407624/DSCF0663_dvj828.jpg")
 puts "Adding image 12"
-file146 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407626/DSCF0694_istsbl.jpg")
+file146 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407626/DSCF0694_istsbl.jpg")
 puts "Adding image 13"
-file147 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407627/DSCF0815_av4unc.jpg")
+file147 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407627/DSCF0815_av4unc.jpg")
 puts "Adding image 14"
-file148 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407630/Les_feux_de_Beltane_Closeup_Mimi_2017_q2103m.jpg")
+file148 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407630/Les_feux_de_Beltane_Closeup_Mimi_2017_q2103m.jpg")
 
 artistique3.photos.attach(io: file135, filename: "Portrait 1", content_type: "image/png")
 artistique3.photos.attach(io: file136, filename: "Portrait 2", content_type: "image/png")
@@ -508,161 +508,161 @@ puts "Creating Artistique 4 - Street Photo"
 artistique4 = Artistique.new(title: "Street Photo", user_id: user1.id)
 
 puts "Adding image 1"
-file149 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407996/DSC_0082_t4u136.jpg")
+file149 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407996/DSC_0082_t4u136.jpg")
 puts "Adding image 2"
-file150 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407997/DSC_0094_flunpe.jpg")
+file150 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407997/DSC_0094_flunpe.jpg")
 puts "Adding image 3"
-file151 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407997/DSC_0095_jmkq0l.jpg")
+file151 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407997/DSC_0095_jmkq0l.jpg")
 puts "Adding image 4"
-file152 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407997/DSC_0003_b5hpra.jpg")
+file152 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407997/DSC_0003_b5hpra.jpg")
 puts "Adding image 5"
-file153 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667407998/Double_Weeles_talking_kls62y.jpg")
+file153 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667407998/Double_Weeles_talking_kls62y.jpg")
 puts "Adding image 6"
-file154 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408000/DSC_0100_z94km4.jpg")
+file154 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408000/DSC_0100_z94km4.jpg")
 puts "Adding image 7"
-file155 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408000/DSC_0118_ikzf3o.jpg")
+file155 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408000/DSC_0118_ikzf3o.jpg")
 puts "Adding image 8"
-file156 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408000/DSC_0137_cfuxor.jpg")
+file156 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408000/DSC_0137_cfuxor.jpg")
 puts "Adding image 9"
-file157 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408000/DSC_0149_blnoc3.jpg")
+file157 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408000/DSC_0149_blnoc3.jpg")
 puts "Adding image 10"
-file158 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408001/DSC_0180_oqb4b6.jpg")
+file158 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408001/DSC_0180_oqb4b6.jpg")
 puts "Adding image 11"
-file159 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408001/DSC_0135_ogqq5s.jpg")
+file159 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408001/DSC_0135_ogqq5s.jpg")
 puts "Adding image 12"
-file160 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408003/DSC_0224_B_W_xxrxwu.jpg")
+file160 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408003/DSC_0224_B_W_xxrxwu.jpg")
 puts "Adding image 13"
-file161 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408003/DSC_0203_jjcab1.jpg")
+file161 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408003/DSC_0203_jjcab1.jpg")
 puts "Adding image 14"
-file162 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408003/DSC_0228_aaqco9.jpg")
+file162 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408003/DSC_0228_aaqco9.jpg")
 puts "Adding image 15"
-file163 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408004/DSC_0230_Bleach_iuhq8a.jpg")
+file163 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408004/DSC_0230_Bleach_iuhq8a.jpg")
 puts "Adding image 16"
-file164 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408005/DSC_0248_mrqfnp.jpg")
+file164 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408005/DSC_0248_mrqfnp.jpg")
 puts "Adding image 17"
-file165 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408005/DSC_0315_r0khbz.jpg")
+file165 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408005/DSC_0315_r0khbz.jpg")
 puts "Adding image 18"
-file166 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408006/DSC_0294_mofmfc.jpg")
+file166 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408006/DSC_0294_mofmfc.jpg")
 puts "Adding image 19"
-file167 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408007/DSC_0320_pcmnpx.jpg")
+file167 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408007/DSC_0320_pcmnpx.jpg")
 puts "Adding image 20"
-file168 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408008/DSC_0361_tcbfjz.jpg")
+file168 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408008/DSC_0361_tcbfjz.jpg")
 puts "Adding image 21"
-file169 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408009/DSC_0380_sklqjz.jpg")
+file169 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408009/DSC_0380_sklqjz.jpg")
 puts "Adding image 22"
-file170 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408009/DSC_0400_lo9jsz.jpg")
+file170 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408009/DSC_0400_lo9jsz.jpg")
 puts "Adding image 23"
-file171 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408009/DSC_0396_ycy5hz.jpg")
+file171 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408009/DSC_0396_ycy5hz.jpg")
 puts "Adding image 24"
-file172 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408010/DSC_0385_jmdi4x.jpg")
+file172 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408010/DSC_0385_jmdi4x.jpg")
 puts "Adding image 25"
-file173 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408010/DSC_0401_hkdtgx.jpg")
+file173 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408010/DSC_0401_hkdtgx.jpg")
 puts "Adding image 26"
-file174 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408012/DSC_0403_skt2vb.jpg")
+file174 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408012/DSC_0403_skt2vb.jpg")
 puts "Adding image 27"
-file175 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408012/DSC_0436_l8pr2g.jpg")
+file175 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408012/DSC_0436_l8pr2g.jpg")
 puts "Adding image 28"
-file176 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408012/DSC_0438_wiwlfr.jpg")
+file176 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408012/DSC_0438_wiwlfr.jpg")
 puts "Adding image 29"
-file177 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408013/DSC_0462_yebb1k.jpg")
+file177 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408013/DSC_0462_yebb1k.jpg")
 puts "Adding image 30"
-file178 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408013/DSC_0442_q1qjqa.jpg")
+file178 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408013/DSC_0442_q1qjqa.jpg")
 puts "Adding image 31"
-file179 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408013/DSC_0467_vs2kfg.jpg")
+file179 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408013/DSC_0467_vs2kfg.jpg")
 puts "Adding image 32"
-file180 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408015/DSC_0472_kbxvdg.jpg")
+file180 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408015/DSC_0472_kbxvdg.jpg")
 puts "Adding image 33"
-file181 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408016/DSC_0524_c7pbjz.jpg")
+file181 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408016/DSC_0524_c7pbjz.jpg")
 puts "Adding image 34"
-file182 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408017/DSC_0577v2_nrwjdb.jpg")
+file182 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408017/DSC_0577v2_nrwjdb.jpg")
 puts "Adding image 35"
-file183 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408017/DSC_0538_tze6zx.jpg")
+file183 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408017/DSC_0538_tze6zx.jpg")
 puts "Adding image 36"
-file184 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408018/DSC_0625_npmkqz.jpg")
+file184 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408018/DSC_0625_npmkqz.jpg")
 puts "Adding image 37"
-file185 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408020/DSC_0658_rxjq4b.jpg")
+file185 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408020/DSC_0658_rxjq4b.jpg")
 puts "Adding image 38"
-file186 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408021/DSC_0726_sqo7of.jpg")
+file186 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408021/DSC_0726_sqo7of.jpg")
 puts "Adding image 39"
-file187 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408021/DSC_0745_v9pefq.jpg")
+file187 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408021/DSC_0745_v9pefq.jpg")
 puts "Adding image 40"
-file188 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408022/DSC_0628_lf6vh0.jpg")
+file188 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408022/DSC_0628_lf6vh0.jpg")
 puts "Adding image 41"
-file189 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408022/DSC_0750_lah1ua.jpg")
+file189 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408022/DSC_0750_lah1ua.jpg")
 puts "Adding image 42"
-file190 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408023/DSC_0743_xiqjlr.jpg")
+file190 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408023/DSC_0743_xiqjlr.jpg")
 puts "Adding image 43"
-file191 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408023/DSC_0761_B_W_u9l3xs.jpg")
+file191 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408023/DSC_0761_B_W_u9l3xs.jpg")
 puts "Adding image 44"
-file192 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408024/DSC_0771_kcobmh.jpg")
+file192 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408024/DSC_0771_kcobmh.jpg")
 puts "Adding image 45"
-file193 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408025/DSC_0793_syi9rq.jpg")
+file193 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408025/DSC_0793_syi9rq.jpg")
 puts "Adding image 46"
-file194 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408026/DSC_0778_lmm9ew.jpg")
+file194 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408026/DSC_0778_lmm9ew.jpg")
 puts "Adding image 47"
-file195 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408026/DSC_0849_e9onaz.jpg")
+file195 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408026/DSC_0849_e9onaz.jpg")
 puts "Adding image 48"
-file196 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408027/DSC_0813_dk2pyp.jpg")
+file196 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408027/DSC_0813_dk2pyp.jpg")
 puts "Adding image 49"
-file197 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408028/DSC_0884_B_W_w5ljzg.jpg")
+file197 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408028/DSC_0884_B_W_w5ljzg.jpg")
 puts "Adding image 50"
-file198 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408029/DSC_2715_hpirwm.jpg")
+file198 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408029/DSC_2715_hpirwm.jpg")
 puts "Adding image 51"
-file199 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408029/DSC_2737_abezzo.jpg")
+file199 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408029/DSC_2737_abezzo.jpg")
 puts "Adding image 52"
-file200 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408030/DSC_0884_t1bdaa.jpg")
+file200 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408030/DSC_0884_t1bdaa.jpg")
 puts "Adding image 53"
-file201 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408033/DSCF0538_dlxwic.jpg")
+file201 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408033/DSCF0538_dlxwic.jpg")
 puts "Adding image 54"
-file202 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408035/DSCF0685_dvvxoa.jpg")
+file202 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408035/DSCF0685_dvvxoa.jpg")
 puts "Adding image 55"
-file203 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408036/DSCF0698_q9jeu1.jpg")
+file203 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408036/DSCF0698_q9jeu1.jpg")
 puts "Adding image 56"
-file204 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408037/DSCF0714_hqgwzc.jpg")
+file204 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408037/DSCF0714_hqgwzc.jpg")
 puts "Adding image 57"
-file205 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408040/DSCF0754_byzzzx.jpg")
+file205 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408040/DSCF0754_byzzzx.jpg")
 puts "Adding image 58"
-file206 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408041/DSCF0757_tqm3uw.jpg")
+file206 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408041/DSCF0757_tqm3uw.jpg")
 puts "Adding image 59"
-file207 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408041/DSCF0930_wmtltr.jpg")
+file207 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408041/DSCF0930_wmtltr.jpg")
 puts "Adding image 60"
-file208 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408043/DSCF0939_tz2vbq.jpg")
+file208 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408043/DSCF0939_tz2vbq.jpg")
 puts "Adding image 61"
-file209 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408044/DSCF1189_vktcuj.jpg")
+file209 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408044/DSCF1189_vktcuj.jpg")
 puts "Adding image 62"
-file210 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408046/DSCF1470_voqzlb.jpg")
+file210 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408046/DSCF1470_voqzlb.jpg")
 puts "Adding image 63"
-file211 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408047/DSCF1579_eqbdj8.jpg")
+file211 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408047/DSCF1579_eqbdj8.jpg")
 puts "Adding image 64"
-file212 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408048/DSCF1611_k2h2dp.jpg")
+file212 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408048/DSCF1611_k2h2dp.jpg")
 puts "Adding image 65"
-file213 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408048/DSCF1586_r7b372.jpg")
+file213 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408048/DSCF1586_r7b372.jpg")
 puts "Adding image 66"
-file214 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408053/DSCF1708_sacvbq.jpg")
+file214 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408053/DSCF1708_sacvbq.jpg")
 puts "Adding image 67"
-file215 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408054/DSCF1790_q8o4md.jpg")
+file215 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408054/DSCF1790_q8o4md.jpg")
 puts "Adding image 68"
-file216 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408056/DSCF1841_uea6gs.jpg")
+file216 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408056/DSCF1841_uea6gs.jpg")
 puts "Adding image 69"
-file217 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408056/DSCF1626_nft2mv.jpg")
+file217 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408056/DSCF1626_nft2mv.jpg")
 puts "Adding image 70"
-file218 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408057/DSCF2616_nj3o7k.jpg")
+file218 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408057/DSCF2616_nj3o7k.jpg")
 puts "Adding image 71"
-file219 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408058/DSCF2627_yh4poj.jpg")
+file219 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408058/DSCF2627_yh4poj.jpg")
 puts "Adding image 72"
-file220 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408061/DSCF0759_ibonu7.jpg")
+file220 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408061/DSCF0759_ibonu7.jpg")
 puts "Adding image 73"
-file221 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408062/DSCF5239_ptdzec.jpg")
+file221 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408062/DSCF5239_ptdzec.jpg")
 puts "Adding image 74"
-file222 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408063/End_of_humain_jvgu67.jpg")
+file222 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408063/End_of_humain_jvgu67.jpg")
 puts "Adding image 75"
-file223 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408063/P1010617_rx55rx.jpg")
+file223 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408063/P1010617_rx55rx.jpg")
 puts "Adding image 76"
-file224 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408063/Les_feux_de_Beltane_Lowkey_Mimi_tattoo_2017_q1kbfp.jpg")
+file224 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408063/Les_feux_de_Beltane_Lowkey_Mimi_tattoo_2017_q1kbfp.jpg")
 puts "Adding image 77"
-file225 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408064/Police_c6sbcb.jpg")
+file225 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408064/Police_c6sbcb.jpg")
 puts "Adding image 78"
-file226 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408196/DSC_0294_ybughj.jpg")
+file226 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408196/DSC_0294_ybughj.jpg")
 
 artistique4.photos.attach(io: file149, filename: "Street Photo 1", content_type: "image/png")
 artistique4.photos.attach(io: file150, filename: "Street Photo 2", content_type: "image/png")
@@ -748,49 +748,49 @@ puts "Creating Artistique 5 - Architecture"
 artistique5 = Artistique.new(title: "Architecture", user_id: user1.id)
 
 puts "Adding image 1"
-file227 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408196/DSC_0038_ljs8jl.jpg")
+file227 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408196/DSC_0038_ljs8jl.jpg")
 puts "Adding image 2"
-file228 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408197/DSC_0346_k0oxpn.jpg")
+file228 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408197/DSC_0346_k0oxpn.jpg")
 puts "Adding image 3"
-file229 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408197/DSC_0099_rnj1bf.jpg")
+file229 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408197/DSC_0099_rnj1bf.jpg")
 puts "Adding image 4"
-file230 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408197/DSC_0418_elhviv.jpg")
+file230 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408197/DSC_0418_elhviv.jpg")
 puts "Adding image 5"
-file231 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408199/DSC_0450_dqyt5y.jpg")
+file231 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408199/DSC_0450_dqyt5y.jpg")
 puts "Adding image 6"
-file232 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408200/DSC_0481_v2jp4r.jpg")
+file232 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408200/DSC_0481_v2jp4r.jpg")
 puts "Adding image 7"
-file233 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408200/DSC_0493_fedmgo.jpg")
+file233 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408200/DSC_0493_fedmgo.jpg")
 puts "Adding image 8"
-file234 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408201/DSC_0564_puijcu.jpg")
+file234 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408201/DSC_0564_puijcu.jpg")
 puts "Adding image 9"
-file235 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408201/DSC_0694_iqunce.jpg")
+file235 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408201/DSC_0694_iqunce.jpg")
 puts "Adding image 10"
-file236 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408201/DSC_0731_vmg6uw.jpg")
+file236 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408201/DSC_0731_vmg6uw.jpg")
 puts "Adding image 11"
-file237 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408202/DSC_0881_muf1zo.jpg")
+file237 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408202/DSC_0881_muf1zo.jpg")
 puts "Adding image 12"
-file238 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408203/DSC_0894_gwjb9q.jpg")
+file238 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408203/DSC_0894_gwjb9q.jpg")
 puts "Adding image 13"
-file239 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408203/DSC_0844_ua5psz.jpg")
+file239 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408203/DSC_0844_ua5psz.jpg")
 puts "Adding image 14"
-file240 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408203/DSC_0844_ua5psz.jpg")
+file240 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408203/DSC_0844_ua5psz.jpg")
 puts "Adding image 15"
-file241 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408204/DSC_0950_qswpdz.jpg")
+file241 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408204/DSC_0950_qswpdz.jpg")
 puts "Adding image 16"
-file242 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408205/DSC_0949_y99x9a.jpg")
+file242 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408205/DSC_0949_y99x9a.jpg")
 puts "Adding image 17"
-file243 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408206/DSCF0427_vjyig5.jpg")
+file243 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408206/DSCF0427_vjyig5.jpg")
 puts "Adding image 18"
-file244 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408208/DSCF2658_xem4kq.jpg")
+file244 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408208/DSCF2658_xem4kq.jpg")
 puts "Adding image 19"
-file245 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408208/DSCF1833_hpcohb.jpg")
+file245 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408208/DSCF1833_hpcohb.jpg")
 puts "Adding image 20"
-file246 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408211/DSCF6370_jeb0ov.jpg")
+file246 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408211/DSCF6370_jeb0ov.jpg")
 puts "Adding image 21"
-file247 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408211/DSCF4566_iil9lc.jpg")
+file247 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408211/DSCF4566_iil9lc.jpg")
 puts "Adding image 22"
-file248 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408212/DSCF3993_r8ohlr.jpg")
+file248 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408212/DSCF3993_r8ohlr.jpg")
 
 artistique5.photos.attach(io: file227, filename: "Architecture 1", content_type: "image/png")
 artistique5.photos.attach(io: file228, filename: "Architecture 2", content_type: "image/png")
@@ -820,85 +820,85 @@ puts "Creating Artistique 6 - Paysages"
 artistique6 = Artistique.new(title: "Paysages", user_id: user1.id)
 
 puts "Adding image 1"
-file249 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408400/DSC_0036_moorfi.jpg")
+file249 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408400/DSC_0036_moorfi.jpg")
 puts "Adding image 2"
-file250 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408400/DSC_0004_jf7m87.jpg")
+file250 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408400/DSC_0004_jf7m87.jpg")
 puts "Adding image 3"
-file251 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408400/DSC_0065_ha7vqt.jpg")
+file251 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408400/DSC_0065_ha7vqt.jpg")
 puts "Adding image 4"
-file252 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408400/DSC_0019_rs1gpc.jpg")
+file252 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408400/DSC_0019_rs1gpc.jpg")
 puts "Adding image 5"
-file253 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408400/DSC_0019_rs1gpc.jpg")
+file253 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408400/DSC_0019_rs1gpc.jpg")
 puts "Adding image 6"
-file254 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408401/DSC_0161_qiytia.jpg")
+file254 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408401/DSC_0161_qiytia.jpg")
 puts "Adding image 7"
-file255 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408401/DSC_0161_qiytia.jpg")
+file255 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408401/DSC_0161_qiytia.jpg")
 puts "Adding image 8"
-file256 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408403/DSC_0188_m7eh5o.jpg")
+file256 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408403/DSC_0188_m7eh5o.jpg")
 puts "Adding image 9"
-file257 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408404/DSC_0206_k8awfm.jpg")
+file257 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408404/DSC_0206_k8awfm.jpg")
 puts "Adding image 10"
-file258 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408404/DSC_0167_mcwyk1.jpg")
+file258 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408404/DSC_0167_mcwyk1.jpg")
 puts "Adding image 11"
-file259 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408405/DSC_0202_ojrfpp.jpg")
+file259 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408405/DSC_0202_ojrfpp.jpg")
 puts "Adding image 12"
-file260 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408405/DSC_0198_mttodg.jpg")
+file260 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408405/DSC_0198_mttodg.jpg")
 puts "Adding image 13"
-file261 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408406/DSC_0209_aly0ej.jpg")
+file261 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408406/DSC_0209_aly0ej.jpg")
 puts "Adding image 14"
-file262 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408408/DSC_0242_ti5yj9.jpg")
+file262 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408408/DSC_0242_ti5yj9.jpg")
 puts "Adding image 15"
-file263 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408408/DSC_0277_dq7q2w.jpg")
+file263 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408408/DSC_0277_dq7q2w.jpg")
 puts "Adding image 16"
-file264 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408408/DSC_0277_dq7q2w.jpg")
+file264 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408408/DSC_0277_dq7q2w.jpg")
 puts "Adding image 17"
-file265 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408408/DSC_0277_dq7q2w.jpg")
+file265 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408408/DSC_0277_dq7q2w.jpg")
 puts "Adding image 18"
-file266 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408408/DSC_0277_dq7q2w.jpg")
+file266 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408408/DSC_0277_dq7q2w.jpg")
 puts "Adding image 19"
-file267 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408408/DSC_0277_dq7q2w.jpg")
+file267 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408408/DSC_0277_dq7q2w.jpg")
 puts "Adding image 20"
-file268 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408410/DSC_0292_uvgbjj.jpg")
+file268 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408410/DSC_0292_uvgbjj.jpg")
 puts "Adding image 21"
-file269 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408410/DSC_0292_uvgbjj.jpg")
+file269 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408410/DSC_0292_uvgbjj.jpg")
 puts "Adding image 22"
-file270 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408412/DSC_0362_ohgkrk.jpg")
+file270 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408412/DSC_0362_ohgkrk.jpg")
 puts "Adding image 23"
-file271 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408413/DSC_0596_ayslp6.jpg")
+file271 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408413/DSC_0596_ayslp6.jpg")
 puts "Adding image 24"
-file272 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408413/DSC_0365_r1myiq.jpg")
+file272 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408413/DSC_0365_r1myiq.jpg")
 puts "Adding image 25"
-file273 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408414/DSC_3164_zyr2o9.jpg")
+file273 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408414/DSC_3164_zyr2o9.jpg")
 puts "Adding image 26"
-file274 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408414/DSC_0385_smhmmg.jpg")
+file274 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408414/DSC_0385_smhmmg.jpg")
 puts "Adding image 27"
-file275 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408414/DSC_0715_r60rnq.jpg")
+file275 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408414/DSC_0715_r60rnq.jpg")
 puts "Adding image 28"
-file276 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408417/DSCF0686_ibhfqq.jpg")
+file276 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408417/DSCF0686_ibhfqq.jpg")
 puts "Adding image 29"
-file277 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408418/DSCF1692_jo4d0c.jpg")
+file277 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408418/DSCF1692_jo4d0c.jpg")
 puts "Adding image 30"
-file278 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408418/DSCF1692_jo4d0c.jpg")
+file278 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408418/DSCF1692_jo4d0c.jpg")
 puts "Adding image 31"
-file279 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408421/DSCF2063_aj5pke.jpg")
+file279 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408421/DSCF2063_aj5pke.jpg")
 puts "Adding image 32"
-file280 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408421/DSCF2063_aj5pke.jpg")
+file280 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408421/DSCF2063_aj5pke.jpg")
 puts "Adding image 33"
-file281 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408422/DSCF3314_j7edhe.jpg")
+file281 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408422/DSCF3314_j7edhe.jpg")
 puts "Adding image 34"
-file282 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408424/DSCF4815_simtwk.jpg")
+file282 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408424/DSCF4815_simtwk.jpg")
 puts "Adding image 35"
-file283 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408426/DSCF5395_a0jpn7.jpg")
+file283 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408426/DSCF5395_a0jpn7.jpg")
 puts "Adding image 36"
-file284 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408426/DSCF5395_a0jpn7.jpg")
+file284 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408426/DSCF5395_a0jpn7.jpg")
 puts "Adding image 37"
-file285 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408427/DSCF6355_ag6bua.jpg")
+file285 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408427/DSCF6355_ag6bua.jpg")
 puts "Adding image 38"
-file286 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408427/DSCF6353_aaevof.jpg")
+file286 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408427/DSCF6353_aaevof.jpg")
 puts "Adding image 39"
-file287 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408429/DSCF8784_n8difb.jpg")
+file287 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408429/DSCF8784_n8difb.jpg")
 puts "Adding image 40"
-file288 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408430/IMG_1971_er21zw.jpg")
+file288 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408430/IMG_1971_er21zw.jpg")
 
 artistique6.photos.attach(io: file249, filename: "Paysages 1", content_type: "image/png")
 artistique6.photos.attach(io: file250, filename: "Paysages 1", content_type: "image/png")
@@ -946,51 +946,51 @@ puts "Creating Artistique 7 - Textures"
 artistique7 = Artistique.new(title: "Textures", user_id: user1.id)
 
 puts "Adding image 1"
-file289 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408554/5473_-_12_pbigiq.jpg")
+file289 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408554/5473_-_12_pbigiq.jpg")
 puts "Adding image 2"
-file290 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408555/DSC_0040_lgp3wa.jpg")
+file290 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408555/DSC_0040_lgp3wa.jpg")
 puts "Adding image 3"
-file291 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408556/DSC_0051_etruja.jpg")
+file291 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408556/DSC_0051_etruja.jpg")
 puts "Adding image 4"
-file292 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408557/DSC_0199_xmckgi.jpg")
+file292 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408557/DSC_0199_xmckgi.jpg")
 puts "Adding image 5"
-file293 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408557/DSC_0260_uxbxau.jpg")
+file293 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408557/DSC_0260_uxbxau.jpg")
 puts "Adding image 6"
-file294 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408558/DSC_0320_otb5rw.jpg")
+file294 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408558/DSC_0320_otb5rw.jpg")
 puts "Adding image 7"
-file295 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408559/DSC_0464_lkesaz.jpg")
+file295 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408559/DSC_0464_lkesaz.jpg")
 puts "Adding image 8"
-file296 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408559/DSC_0464_lkesaz.jpg")
+file296 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408559/DSC_0464_lkesaz.jpg")
 puts "Adding image 9"
-file297 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408559/DSC_0464_lkesaz.jpg")
+file297 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408559/DSC_0464_lkesaz.jpg")
 puts "Adding image 10"
-file298 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408561/DSC_0473_ujvtvs.jpg")
+file298 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408561/DSC_0473_ujvtvs.jpg")
 puts "Adding image 11"
-file299 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408562/DSC_0750_waqfro.jpg")
+file299 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408562/DSC_0750_waqfro.jpg")
 puts "Adding image 12"
-file300 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408563/DSC_0677_lu3ibl.jpg")
+file300 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408563/DSC_0677_lu3ibl.jpg")
 puts "Adding image 13"
-file301 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408564/DSC_0868_bufl6l.jpg")
+file301 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408564/DSC_0868_bufl6l.jpg")
 puts "Adding image 14"
-file302 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408565/DSCF0537_t2gxnf.jpg")
+file302 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408565/DSCF0537_t2gxnf.jpg")
 puts "Adding image 15"
-file303 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408565/DSCF2105_otaf64.jpg")
+file303 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408565/DSCF2105_otaf64.jpg")
 puts "Adding image 16"
-file304 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408566/DSCF0995_nzxldt.jpg")
+file304 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408566/DSCF0995_nzxldt.jpg")
 puts "Adding image 17"
-file305 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408571/DSCF3285_wgkrzm.jpg")
+file305 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408571/DSCF3285_wgkrzm.jpg")
 puts "Adding image 18"
-file306 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408571/DSCF2783_zekw9f.jpg")
+file306 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408571/DSCF2783_zekw9f.jpg")
 puts "Adding image 19"
-file307 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408572/DSCF4937_uyisey.jpg")
+file307 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408572/DSCF4937_uyisey.jpg")
 puts "Adding image 20"
-file308 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408572/DSCF4937_uyisey.jpg")
+file308 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408572/DSCF4937_uyisey.jpg")
 puts "Adding image 21"
-file309 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408574/P1020780_va0vvt.jpg")
+file309 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408574/P1020780_va0vvt.jpg")
 puts "Adding image 22"
-file310 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408576/Pink_Skyhole_v2_nrekl8.jpg")
+file310 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408576/Pink_Skyhole_v2_nrekl8.jpg")
 puts "Adding image 23"
-file311 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:good/v1667408577/Water_and_rocks_lines_B_W_2_okc6ny.jpg")
+file311 = URI.open("https://res.cloudinary.com/dpij7tmvy/image/upload/q_auto:eco/v1667408577/Water_and_rocks_lines_B_W_2_okc6ny.jpg")
 
 artistique7.photos.attach(io: file289, filename: "Textures 1", content_type: "image/png")
 artistique7.photos.attach(io: file290, filename: "Textures 2", content_type: "image/png")
