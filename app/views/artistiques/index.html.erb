@@ -1,12 +1,12 @@
-<div class="container text-center">
+<div class="container text-center" data-controller="disable-button">
 
   <div class="banner_artistiques mb-5">
     <h1>Artistiques</h1>
   </div>
 
   <div class="grid-container mb-5">
-    <%= link_to concerts_path, class:"text-decoration-none menu-img" do %>
-      <div class="grid-item-1 text-white">Concerts</div>
+    <%= link_to artistiques_path, class:"text-decoration-none menu-img" do %>
+      <div class="grid-item-1 text-white">artistiques</div>
     <% end %>
     <%= link_to tournages_path, class:"text-decoration-none menu-img" do %>
       <div class="grid-item-2 text-white">Tournages</div>
@@ -14,6 +14,118 @@
     <%= link_to blog_path, class:"text-decoration-none menu-img" do %>
       <div class="grid-item-4 text-white">Mon blog</div>
     <% end %>
+  </div>
+
+  <div class="mb-2">
+    <a href="#" class="text-decoration-none" data-action="click->disable-button#toggleAbstrait">
+      <div class="banner-abstrait">
+        <h2>Abstrait</h2>
+      </div>
+    </a>
+
+    <div class="photo_grid mb-5 d-none" data-disable-button-target="abstrait">
+      <% @artistiques.find_by(title: "Abstrait").photos.each do |photo| %>
+        <a href="<%= photo.url %>" target="_blank">
+          <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+        </a>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="mb-2">
+    <a href="#" class="text-decoration-none" data-action="click->disable-button#toggleKodak">
+      <div class="banner-kodak">
+        <h2>Kodak TX400</h2>
+      </div>
+    </a>
+
+    <div class="photo_grid mb-5 d-none" data-disable-button-target="kodak">
+      <% @artistiques.find_by(title: "Kodak TX400").photos.each do |photo| %>
+        <a href="<%= photo.url %>" target="_blank">
+          <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+        </a>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="mb-2">
+    <a href="#" class="text-decoration-none" data-action="click->disable-button#togglePortraits">
+      <div class="banner-portraits">
+        <h2>Portraits</h2>
+      </div>
+    </a>
+
+    <div class="photo_grid mb-5 d-none" data-disable-button-target="portraits">
+      <% @artistiques.find_by(title: "Portraits").photos.each do |photo| %>
+        <a href="<%= photo.url %>" target="_blank">
+          <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+        </a>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="mb-2">
+    <a href="#" class="text-decoration-none" data-action="click->disable-button#toggleStreet">
+      <div class="banner-street">
+        <h2>Street Photo</h2>
+      </div>
+    </a>
+
+    <div class="photo_grid mb-5 d-none" data-disable-button-target="street">
+      <% @artistiques.find_by(title: "Street Photo").photos.each do |photo| %>
+        <a href="<%= photo.url %>" target="_blank">
+          <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+        </a>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="mb-2">
+    <a href="#" class="text-decoration-none" data-action="click->disable-button#toggleArchitecture">
+      <div class="banner-architecture">
+        <h2>Architecture</h2>
+      </div>
+    </a>
+
+    <div class="photo_grid mb-5 d-none" data-disable-button-target="architecture">
+      <% @artistiques.find_by(title: "Architecture").photos.each do |photo| %>
+        <a href="<%= photo.url %>" target="_blank">
+          <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+        </a>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="mb-2">
+    <a href="#" class="text-decoration-none" data-action="click->disable-button#togglePaysages">
+      <div class="banner-paysages">
+        <h2>Paysages</h2>
+      </div>
+    </a>
+
+    <div class="photo_grid mb-5 d-none" data-disable-button-target="paysages">
+      <% @artistiques.find_by(title: "Paysages").photos.each do |photo| %>
+        <a href="<%= photo.url %>" target="_blank">
+          <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+        </a>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="mb-2">
+    <a href="#" class="text-decoration-none" data-action="click->disable-button#toggleTextures">
+      <div class="banner-textures">
+        <h2>Textures</h2>
+      </div>
+    </a>
+
+    <div class="photo_grid mb-5 d-none" data-disable-button-target="textures">
+      <% @artistiques.find_by(title: "Textures").photos.each do |photo| %>
+        <a href="<%= photo.url %>" target="_blank">
+          <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+        </a>
+      <% end %>
+    </div>
   </div>
 
 </div>
